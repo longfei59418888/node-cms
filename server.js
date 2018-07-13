@@ -12,7 +12,7 @@ var config = require('./config')
 
 
 var app = express();
-// console.log(app)
+
 app.use(compression());
 
 //请求日志监控
@@ -63,7 +63,7 @@ app.use(require('./utils/init'))
 
 
 app.use('/admin',require('./routes/admin'));
-app.use('/common',require('./routes/common'));
+// app.use('/common',require('./routes/common'));
 
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
