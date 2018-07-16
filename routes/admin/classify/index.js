@@ -23,7 +23,7 @@ router.post('/classify', (req, res) => {
         }
     }).then((rst) => {
         if (rst[1]) {
-            res.success('创建成功！', res[0].dataValues)
+            res.success('创建成功！', rst[0].dataValues)
             return
         }
         res.error(2, '存在当前分类！')
@@ -31,7 +31,7 @@ router.post('/classify', (req, res) => {
 })
 
 router.delete('/classify', (req, res) => {
-    let {id} = req.query
+    let {id} = req.body
     if (!id) {
         res.error(2)
         return;
@@ -45,9 +45,18 @@ router.delete('/classify', (req, res) => {
 })
 
 router.get('/classify', (req, res) => {
-    let {page, size} = req.body
+    let {page, size, id} = req.query
     size = size ? size : 10
     page = page ? page : 0
+    if (id) {
+        Classify.findById(id).then(rst => {
+            if (rst.length < 1) {
+                res.error(2)
+            }
+            res.success('', rst)
+        })
+        return
+    }
 
     Classify.findAndCountAll({
         limit: size,
@@ -71,8 +80,8 @@ router.put('/classify', (req, res) => {
     Classify.update({
         title,
         description
-    },{where:{id}}).then(rst => {
-        if(rst.length<1){
+    }, {where: {id}}).then(rst => {
+        if (rst.length < 1) {
             res.error(2)
         }
         res.success('更新成功！', rst)

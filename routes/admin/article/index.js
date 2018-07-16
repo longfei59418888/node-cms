@@ -5,7 +5,7 @@ var Article = require('./articles')
 
 router.caseSensitive = true;  //大小写敏感
 
-router.post('/article', (req, res) => {
+router.post('/article/:id', (req, res) => {
     let {title, content, state, isPublish, username} = req.body;
     if (title.length < 1) {
         res.error(2)
@@ -43,7 +43,7 @@ router.delete('/article', (req, res) => {
 })
 
 
-router.get('/classify', (req, res) => {
+router.get('/article/:id', (req, res) => {
     let {page, size} = req.body
     size = size ? size : 10
     page = page ? page : 0
@@ -56,7 +56,7 @@ router.get('/classify', (req, res) => {
     })
 })
 
-router.post('/article', (req, res) => {
+router.post('/article/:id', (req, res) => {
     let {title, content, state, isPublish, username, id} = req.body;
     if (title.length < 1 || !id) {
         res.error(2)
