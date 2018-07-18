@@ -13,6 +13,20 @@ var config = require('./config')
 
 var app = express();
 
+
+// app.post('/upload',function (req,res){
+//     // var origin = req.headers.origin ? req.headers.origin :true;
+//     // res.setHeader('Access-Control-Allow-Origin', origin);//注意这里不能使用 *
+//     // res.setHeader('Access-Control-Allow-Credentials', true);//告诉客户端可以在HTTP请求中带上Cookie
+//     // res.setHeader('Access-Control-Allow-Methods', 'POST, GET, PUT, DELETE, OPTIONS');
+//     // res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+//     // res.setHeader('Content-Type', 'application/json;charset=utf-8');
+//
+//
+//     return
+//
+// });
+
 app.use(compression());
 
 //请求日志监控
@@ -25,6 +39,11 @@ var accessLogStream = FileStreamRotator.getStream({
     verbose: false
 })
 app.use(logger('combined', {stream: accessLogStream}))
+
+// 解析上传文件
+
+
+
 
 
 // 解析 application/json
@@ -60,7 +79,6 @@ app.use(require('express-promise')());
 // }));
 
 app.use(require('./utils/init'))
-
 
 app.use('/admin',require('./routes/admin'));
 // app.use('/common',require('./routes/common'));

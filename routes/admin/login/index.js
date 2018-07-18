@@ -25,6 +25,7 @@ router.post('/login', (req, res) => {
             JSON.stringify({username,password,time:new Date().getTime()})
         )
         res.cookie("token", token, {maxAge: 1000*60*60,httpOnly: false}); //, signed: true
+        req.session.userinfoToken = token;
         res.success('登陆成功！',
             Object.assign({token},req.body)
         )

@@ -46,7 +46,7 @@ router.delete('/classify', (req, res) => {
 
 router.get('/classify', (req, res) => {
     let {page, size, id} = req.query
-    size = size ? size : 10
+    size = size ? size : 100
     page = page ? page : 0
     if (id) {
         Classify.findById(id).then(rst => {

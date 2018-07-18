@@ -11,6 +11,6 @@ const Articles = sequelize.define('articles', {
     //1:hot 2:new 3:ding 0:
     state:{type: Sequelize.INTEGER,allowNull:false,defaultValue:0},
 });
-Articles.sync()
 Articles.belongsTo(Classify)
+Articles.sync()
 module.exports = Articles
