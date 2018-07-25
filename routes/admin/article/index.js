@@ -6,7 +6,7 @@ var Article = require('./articles')
 router.caseSensitive = true;  //大小写敏感
 
 router.post('/article/:id', (req, res) => {
-    let {title, content, state, isPublish, username} = req.body;
+    let {title, content, state, isPublish, username, description, publicDate} = req.body;
     let id = req.params.id;
     if (title.length < 1) {
         res.error(2)
@@ -16,11 +16,15 @@ router.post('/article/:id', (req, res) => {
         res.error(20001)
         return
     }
+    if (content.length < 1 && isPublish == 1) {
+        res.error(20000, '发布必须输入文章内容！')
+        return
+    }
     Article.findOrCreate({
         where: {title: title},
         defaults: {
-            title, content, state, isPublish, username,
-            classifyId: id
+            title, content, state, isPublish, username, description,
+            classifyId: id, publicDate
         }
     })
         .then((rst) => {
@@ -72,7 +76,7 @@ router.get('/article/:id', (req, res) => {
 })
 
 router.put('/article/:id', (req, res) => {
-    let {title, content, state, isPublish, username} = req.body;
+    let {title, content, state, isPublish, username, description, publicDate} = req.body;
     let id = req.params.id;
     if (title.length < 1 || !id) {
         res.error(2)
@@ -83,7 +87,7 @@ router.put('/article/:id', (req, res) => {
         return
     }
     Article.update(
-        {title, content, state, isPublish, username},
+        {title, content, state, isPublish, username, publicDate},
         {where: {id: id}})
         .then((rst) => {
             if (rst.length < 1) {

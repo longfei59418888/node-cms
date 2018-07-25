@@ -81,6 +81,7 @@ app.use(require('express-promise')());
 app.use(require('./utils/init'))
 
 app.use('/admin',require('./routes/admin'));
+app.use('/api',require('./routes/client'));
 // app.use('/common',require('./routes/common'));
 
 app.use(function(req, res, next) {
