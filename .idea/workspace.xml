@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="aa875f40-cc1f-49d3-a4c7-f6f31c05b48a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin/article/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/article/articles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin/article/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/article/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/access-20180725.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/access-20180725.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/util/test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="242" selection-start-line="3" selection-start-column="242" selection-end-line="3" selection-end-column="242" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/client/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/routes/client/classify/classify.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -65,20 +57,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/admin/index.js">
+      <file leaf-file-name="faq.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/client/faq/faq.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="646">
+              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faq.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/client/faq/faq.js">
+      <file leaf-file-name="model.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+            <state relative-caret-position="190">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nginx.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="134" column="46" selection-start-line="134" selection-start-column="46" selection-end-line="134" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -87,25 +106,7 @@
         <entry file="file://$PROJECT_DIR$/routes/client/faq/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/util/delete.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/admin/article/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="24" />
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -154,9 +155,7 @@
         <option value="$PROJECT_DIR$/routes/admin/login/index.js" />
         <option value="$PROJECT_DIR$/routes/admin/index.js" />
         <option value="$PROJECT_DIR$/utils/init.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/bin/util/index.js" />
-        <option value="$PROJECT_DIR$/routes/model.js" />
         <option value="$PROJECT_DIR$/routes/client/classify/classify.js" />
         <option value="$PROJECT_DIR$/routes/client/classify/index.js" />
         <option value="$PROJECT_DIR$/bin/util/test.js" />
@@ -169,6 +168,9 @@
         <option value="$PROJECT_DIR$/routes/client/index.js" />
         <option value="$PROJECT_DIR$/routes/client/home/index.js" />
         <option value="$PROJECT_DIR$/routes/client/faq/faq.js" />
+        <option value="$PROJECT_DIR$/routes/model.js" />
+        <option value="$PROJECT_DIR$/nginx.conf" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -194,17 +196,17 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1680" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1097" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,26 +214,10 @@
               <item name="node-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="node-cms" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="node-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,8 +275,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.www.js" />
         <item itemvalue="npm.www" />
+        <item itemvalue="Node.js.www.js" />
         <item itemvalue="Node.js.server.js" />
       </list>
     </recent_temporary>
@@ -315,26 +301,31 @@
       <workItem from="1531386843731" duration="52536000" />
       <workItem from="1531991225296" duration="2826000" />
       <workItem from="1532314336511" duration="14668000" />
-      <workItem from="1532416211441" duration="25911000" />
+      <workItem from="1532416211441" duration="25935000" />
+      <workItem from="1532514262380" duration="549000" />
+      <workItem from="1532570565918" duration="1258000" />
+      <workItem from="1532625561436" duration="599000" />
+      <workItem from="1533008291157" duration="1050000" />
+      <workItem from="1533281715165" duration="1150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130752000" />
+    <option name="totallyTimeSpent" value="135382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="23" width="1920" height="1097" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49329358" visible="true" weight="0.21800947" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.488" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329" />
-      <window_info id="npm" order="2" sideWeight="0.5067064" side_tool="true" visible="true" weight="0.21800947" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3860215" />
+      <window_info id="npm" order="2" sideWeight="0.512" side_tool="true" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32795697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.478" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
@@ -367,7 +358,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/client/faq/index.js</url>
           <line>15</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
@@ -375,13 +365,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/express-promise/lib/express_promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="103" column="2" selection-start-line="103" selection-start-column="2" selection-end-line="103" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/express.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -451,13 +434,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/www.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -574,23 +550,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1268">
-          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin/search/classify.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin/search/classify.js" />
     <entry file="file://$PROJECT_DIR$/bin/util/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -649,17 +609,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/admin/article/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="418">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/util/delete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/admin/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -685,14 +641,14 @@
     <entry file="file://$PROJECT_DIR$/routes/client/classify/classify.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/client/faq/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -705,8 +661,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/client/faq/faq.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
+        <state relative-caret-position="646">
           <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="134" column="46" selection-start-line="134" selection-start-column="46" selection-end-line="134" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>

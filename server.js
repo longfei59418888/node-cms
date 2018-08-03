@@ -9,7 +9,7 @@ var compression = require('compression');   //压缩静态内容  gzip
 var FileStreamRotator = require('file-stream-rotator');  //日志分割
 var fs = require('fs')
 var config = require('./config')
-
+require('babel-register')
 
 var app = express();
 

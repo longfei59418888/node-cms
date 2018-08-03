@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/longfei59418888/node-cms#readme",
   "dependencies": {
+    "babel-register": "^6.26.0",
     "body-parser": "^1.18.3",
     "ccap": "^0.6.10",
     "compression": "^1.7.2",
