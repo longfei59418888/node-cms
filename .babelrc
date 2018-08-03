@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-async-to-generator",
+    "transform-decorators-legacy",
+    "transform-es2015-modules-commonjs",
+    "syntax-dynamic-import"
+  ]
+}
