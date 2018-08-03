@@ -132,3 +132,5 @@
 127.0.0.1 - - [03/Aug/2018:09:44:38 +0000] "GET /api/index/info HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36"
 127.0.0.1 - - [03/Aug/2018:09:44:44 +0000] "GET /api/index/info HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36"
 127.0.0.1 - - [03/Aug/2018:09:44:44 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8081/api/index/info" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36"
+127.0.0.1 - - [03/Aug/2018:09:46:44 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8081/api/index/info" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36"
+127.0.0.1 - - [03/Aug/2018:09:48:44 +0000] "GET /favicon.ico HTTP/1.1" - - "http://127.0.0.1:8081/api/index/info" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36"

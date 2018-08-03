@@ -1,7 +1,8 @@
 var Sequelize = require('sequelize');
+var config  = require('../config/index')
 
 
-var sequelize = new Sequelize('node_cms', 'root', '12345678', {
+var sequelize = new Sequelize(config.DB_NAME, config.USERNAME, config.PASSWORD, {
     host: 'localhost',
     dialect: 'mysql',
     pool: {
