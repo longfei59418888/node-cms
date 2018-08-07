@@ -13,7 +13,7 @@ router.get('/list', (req, res) => {
             limit: parseInt(size),
             include: [Classify],
             offset: parseInt(size) * parseInt(page),
-            order: [['createdAt', 'DESC']],
+            order: [['publicDate', 'DESC']],
             where:{
                 'title': {
                     '$like': '%'+key+'%',          // nick LIKE '%a%'
@@ -39,7 +39,7 @@ router.get('/list', (req, res) => {
         limit: parseInt(size),
         include: [Classify],
         offset: parseInt(size) * parseInt(page),
-        order: [['createdAt', 'DESC']],
+        order: [['publicDate', 'DESC']],
         where: classifyId ? {
             classifyId,
         } : {}
