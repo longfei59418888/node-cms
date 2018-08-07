@@ -10,6 +10,6 @@ var User = sequelize.define('users', {
     password: {type: Sequelize.STRING, allowNull: false},
 })
 
-User.sync()
+User.sync({force: true})
 
 module.exports = User
