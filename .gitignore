@@ -13,7 +13,8 @@ coverage
 # Bower dependency directory (https://bower.io/)
 bower_components
 .cache
-
+log/
+log/*
 
 # Dependency directories
 node_modules/
