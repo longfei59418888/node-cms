@@ -87,7 +87,7 @@ router.put('/article/:id', (req, res) => {
         return
     }
     Article.update(
-        {title, content, state, isPublish, username, publicDate},
+        {title, content, state, isPublish, username,description, publicDate},
         {where: {id: id}})
         .then((rst) => {
             if (rst.length < 1) {
