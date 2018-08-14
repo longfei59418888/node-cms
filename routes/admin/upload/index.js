@@ -1,8 +1,9 @@
 var express = require('express');
 var router = express.Router();
+var config = require('../../../config')
 router.caseSensitive = true;  //大小写敏感
 var COS = require('cos-nodejs-sdk-v5');
-const cos = new COS({SecretId: "AKIDfFfx52JJCuPnz0oW0IOK4czHUWN4vw76", SecretKey: "QipokX8aw9B2kKjwBF7nKhtX6UkqlV3Q"});
+const cos = new COS({SecretId: config.SecretId, SecretKey: config.SecretKey});
 // 分片上传
 var formidable = require('formidable')
 

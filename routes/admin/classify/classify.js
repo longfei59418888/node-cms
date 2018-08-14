@@ -7,6 +7,6 @@ var Classify = sequelize.define('classify', {
     description: {type: Sequelize.STRING, allowNull: true},
 })
 
-Classify.sync({force: true})
+Classify.sync()
 
 module.exports = Classify
