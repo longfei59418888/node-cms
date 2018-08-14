@@ -5,8 +5,7 @@ module.exports={
 
     COOKIE_SECRET:'node-cms',
     ENCRYPT_KEY:"node-cms",
-    SecretId:'AKIDfFfx52JJCuPnz0oW0IOK4czHUWN4vw76',
-    SecretKey:'QipokX8aw9B2kKjwBF7nKhtX6UkqlV3Q',
+
 
     //数据库信息
     DB_URL:'mongodb://127.0.0.1:27017/mycms',
