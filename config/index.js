@@ -15,7 +15,7 @@ module.exports={
     HOST: '',
     PORT: 27017,
     USERNAME: 'root',
-    PASSWORD: '12345678',
+    PASSWORD: '594xiaolong',
 
 
     //本地缓存设置
